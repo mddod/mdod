@@ -50,6 +50,9 @@ data1,data2,data3,data4,data5,data6
 # MDOD paper 
 MDOD paper is published in ICAIIC 2024 as title "Outlier Detect using Vector Cosine Similarity by Adding a Dimension" 
 
+https://doi.org/10.1109/ICAIIC60209.2024.10463442
+
+
 Z. Shen, "Outlier Detect using Vector Cosine Similarity by Adding a Dimension," 2024 International Conference on Artificial Intelligence in Information and Communication (ICAIIC), Osaka, Japan, 2024, pp. 255-259, doi: 10.1109/ICAIIC60209.2024.10463442.
  
  
