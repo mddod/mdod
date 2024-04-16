@@ -4,15 +4,15 @@ MDOD, Multi-Dimensional data Outlier Detection
 Python library for Multi-Dimensional data Outlier/Anomaly Detection algorithm.
 
 # Installation:
-pip install mdod
+ pip install mdod
 
 or
 
-git clone https://github.com/mddod/mdod.git  # (Not yet online）
+ git clone https://github.com/mddod/mdod.git
 
-cd mdod
+ cd mdod
 
-pip install
+ python setup.py install
 
 # usage example:
 import mdod
