@@ -52,7 +52,7 @@ data1,data2,data3,data4,data5,data6
 
 ...]
 
-# rusult format:
+# result format:
 [value1, '[data1 data2 data3 data4 data5 data6]', '0']
 
 [value2, '[data1 data2 data3 data4 data5 data6]', '1']
