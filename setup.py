@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mdod",
-    version="0.1.7",
+    version="0.1.9",
     packages=find_packages(),
     package_data={"": ["*"]},  
     install_requires=[
