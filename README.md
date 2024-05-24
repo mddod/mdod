@@ -21,6 +21,7 @@ or
 
 # usage example:
 import numpy as np
+
 import mdod
 
 localFile = 'TestDataset.txt'
