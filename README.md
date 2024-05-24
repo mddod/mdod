@@ -20,6 +20,7 @@ or
  python setup.py install
 
 # usage example:
+import numpy as np
 import mdod
 
 localFile = 'TestDataset.txt'
