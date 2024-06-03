@@ -11,7 +11,7 @@ setup(
     author="Z Shen",
     author_email="626456708@qq.com",
     description="MDOD, Multi-Dimensional data Outlier Detection",
-    long_description="Python library for Multi-Dimensional data Outlier/Anomaly Detection algorithm. For details please read README.md, or visit https://github.com/mddod/mdod",
+    long_description="Python library for Multi-Dimensional data Outlier/Anomaly Detection algorithm. For details please read README.md, visit https://github.com/mddod/mdod, or https://mddod.github.io/",
     license="BSD 3-Clause License",
     url="https://github.com/mddod/mdod",
     classifiers=[
