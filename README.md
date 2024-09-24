@@ -19,7 +19,7 @@ or
 
  python setup.py install
 
-# usage example:
+# usage example (get data from TestDataset.txt):
 import numpy as np
 
 import mdod
@@ -62,6 +62,12 @@ data1,data2,data3,data4,data5,data6
 [value3, '[data1 data2 data3 data4 data5 data6]', '2']
 
 ...
+
+# usage example for radom 2D data:
+testmdod2D.py
+# usage example for radom 3D data:
+testmdod3D.py
+
 
 # file exampls:
 Please visit https://github.com/mddod/mdod, or https://mddod.github.io/
