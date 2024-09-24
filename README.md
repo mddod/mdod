@@ -19,7 +19,7 @@ or
 
  python setup.py install
 
-# usage example (get data from TestDataset.txt):
+# usage example testmdod.py (get data from TestDataset.txt):
 import numpy as np
 
 import mdod
