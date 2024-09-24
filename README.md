@@ -75,7 +75,7 @@ testmdod2D.py
 testmdod3D.py
 
 
-# file exampls:
+# python exampls:
 Please visit https://github.com/mddod/mdod, or https://mddod.github.io/
 
  
