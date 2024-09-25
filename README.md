@@ -75,8 +75,9 @@ testmdod2D.py
 testmdod3D.py
 
 
-# python exampls:
-Please visit https://github.com/mddod/mdod, or https://mddod.github.io/
+# More details:
+Pypi mdod library please visit https://pypi.org/project/mdod/
+Python examples please visit https://mddod.github.io/
 
  
  
