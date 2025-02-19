@@ -5,55 +5,35 @@
 
 import numpy as np
 
-def md(dets0,nd,sn): 
+def md(dets0, nd, sn):
     VCS_list = []
-    VCSResult_list = []
-    i=0
-    VCS_list.clear()
+    i = 0
+
     for line0 in dets0:
-        VCSTotal = 0
-        DenominatorLeft = 0
-        DenominatorRight = 0
-        Numerator1 = 0
-        Numerator2 = 0
-        NumeratorPlus = 0
-        DenominatorSum = 0
-        NumeratorSum = 0
-        VCSResult = 0
-        j = 0
-        VCSResult_list.clear()
-        line0size=np.array(line0)
-        for line1 in dets0:
-            VCSResult = 0
-            DenominatorLeft = 0
-            DenominatorRight = 0
-            Numerator1 = 0
-            Numerator2 = 0
-            NumeratorPlus = 0
-            DenominatorSum = 0
-            NumeratorSum = 0
-            VCSResult = 0
-            for k in range(0, (line0size.size), 1):
-                DenominatorLeft = float(DenominatorLeft) + (float(str(line0[k]))-float(str(line0[k])))**2
-            DenominatorLeft = float(DenominatorLeft) + (float(str(nd))-float(str('0')))**2
-            DenominatorLeft = (float(DenominatorLeft)**0.5)
-            for k in range(0, (line0size.size), 1):
-                DenominatorRight = float(DenominatorRight) + (float(str(line0[k]))-float(str(line1[k])))**2
-            DenominatorRight = float(DenominatorRight) + (float(str(nd))-float(str('0')))**2
-            DenominatorRight = (float(DenominatorRight)**0.5)
-            for k in range(0, (line0size.size), 1):
-                NumeratorSum = NumeratorSum + (float(((float(str(line0[k]))-float(str(line0[k])))**2)**0.5) * float(((float(str(line0[k]))-float(str(line1[k])))**2)**0.5))
-            NumeratorPlus = (float(((float(str(nd))-float(str('0')))**2)**0.5) * float(((float(str(nd))-float(str('0')))**2)**0.5))   
-            DenominatorSum = float(DenominatorLeft) * float(DenominatorRight)
-            NumeratorSum = NumeratorSum + NumeratorPlus
-            VCSResult = float(NumeratorSum)/float(DenominatorSum)
+        VCSResult_list = []
+        line0_arr = np.array(line0, dtype=float)  
+
+        for j, line1 in enumerate(dets0):
+            if j == i:  
+                continue
+
+            line1_arr = np.array(line1, dtype=float)
+
+            DenominatorLeft = np.sqrt(np.sum((line0_arr - line0_arr) ** 2) + (nd - 0) ** 2)
+            DenominatorRight = np.sqrt(np.sum((line0_arr - line1_arr) ** 2) + (nd - 0) ** 2)
+            DenominatorSum = DenominatorLeft * DenominatorRight
+
+            NumeratorSum = np.sum(np.sqrt((line0_arr - line0_arr) ** 2) * np.sqrt((line0_arr - line1_arr) ** 2))
+            NumeratorPlus = np.sqrt((nd - 0) ** 2) * np.sqrt((nd - 0) ** 2)
+            NumeratorSum += NumeratorPlus
+
+            VCSResult = 0 if DenominatorSum == 0 else NumeratorSum / DenominatorSum
             VCSResult_list.append(VCSResult)
-        VCSResult_list.sort(key=None, reverse=True)
-        for j in range(1, sn):
-            VCSTotal = VCSTotal + float(str(VCSResult_list[j]))
-        VCS_list.append([VCSTotal, str(line0), str(i)])
-        i = i + 1
+
+        VCSResult_list.sort(reverse=True)
+        VCSTotal = sum(VCSResult_list[:min(sn, len(VCSResult_list))]) 
+
+        VCS_list.append([VCSTotal, line0.tolist(), i])  
+        i += 1
+
     return VCS_list
-
-
-
