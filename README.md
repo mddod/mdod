@@ -21,9 +21,9 @@ or
 
 # usage example testmdod.py (get data from TestDataset.txt):
 
-Please try testmdodmodel3.py to see example
+Please try testmdodmodelv3.py to see example
 
-python testmdodmodel3.py
+python testmdodmodelv3.py
 
 # More details:
 Pypi mdod library please visit https://pypi.org/project/mdod/
