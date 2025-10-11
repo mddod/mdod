@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mdod",
-    version="3.0.0",
+    version="3.0.1",
     packages=find_packages(),
     package_data={"": ["*"]},  
     install_requires=[
@@ -21,4 +21,5 @@ setup(
         "Programming Language :: Python :: 3",
     ],
 )
+
 
