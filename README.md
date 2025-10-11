@@ -19,9 +19,8 @@ or
 
  python setup.py install
 
-# usage example testmdod.py (get data from TestDataset.txt):
-
-Please try testmdodmodelv3.py to see example
+# usage example:
+Please try testmdodmodelv3.py to see usage
 
 python testmdodmodelv3.py
 
