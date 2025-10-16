@@ -139,6 +139,38 @@ libpng warning: iCCP: cHRM chunk does not match sRGB
 > 
 
 
+D:\mdodtest>py testmdod_simple_example_en.py
+
+Number of features: 2
+
+Number of samples: 1000
+
+Number of outliers: 150
+
+Data saved to: testmdod_simple_example_output_data.csv
+
+Sampling rate used: 0.05
+
+MDOD runtime: 0.0797 seconds
+
+
+MDOD decision scores (top 10 - highest values):
+
+[-6.62289984 -6.77322132 -6.92891522 -7.18871113 -7.23625849 -7.24312221
+
+ -7.31773667 -7.32676678 -7.33133378 -7.33982723]
+
+ 
+
+MDOD decision scores (bottom 10 - lowest values):
+
+[-19.84866083 -19.82038598 -19.82010554 -19.80062169 -19.80051546
+
+ -19.76201034 -19.76181435 -19.75729718 -19.75229983 -19.74520579]
+
+ 
+ 
+
 
 
 
