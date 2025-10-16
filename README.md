@@ -136,8 +136,12 @@ libpng warning: iCCP: cHRM chunk does not match sRGB
 
 libpng warning: iCCP: cHRM chunk does not match sRGB
 
-> 
 
+D:\mdodtest>
+
+D:\mdodtest>
+
+D:\mdodtest>
 
 D:\mdodtest>py testmdod_simple_example_en.py
 
