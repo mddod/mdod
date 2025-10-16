@@ -24,10 +24,10 @@ python setup.py install
 
 # usage example:
 
-Please visit https://github.com/mddod/mdod, or https://mddod.github.io/
+Please visit https://pypi.org/project/mdod/, or https://github.com/mddod/mdod, or https://mddod.github.io/
 
 Please try testmdodmodelv3.py to see usage
-
+Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.csv to see usage with reading data from csv file.
 
 
 PS D:\\mdod> python testmdodmodelv3.py
