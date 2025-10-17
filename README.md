@@ -106,7 +106,7 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 
 <code>Test Data Comparison (Top 10 Rows):</code>
 
-<code>&nbsp;  Feature\_1  Feature\_2  True\_Label  MDOD\_Score  MDOD\_Label  LOF\_Score  LOF\_Label
+<code>&nbsp;  Feature\_1  Feature\_2  True\_Label  MDOD\_Score  MDOD\_Label  LOF\_Score  LOF\_Label</code>
 
 <code>0  -0.275279   0.119701         0.0  -19.437296           0   1.025167          0</code>
 
@@ -172,12 +172,13 @@ D:\mdodtest>
 
 <code> -19.76201034 -19.76181435 -19.75729718 -19.75229983 -19.74520579]</code>
 
- 
+<code></code><br>
+<code></code><br>
 The <code>parameters of MDOD</code> include: <br> 
 
 <code>norm_distence</code>: The distance of the virtual dimension (the default is 1.0, which affects the similarity calculation).<br> 
 
-<code>top_n</code>: Consider the number of nearest points used for statistics (select the appropriate number for outlier identification and distinction).<br> 
+<code>top_n</code>: Consider the number of nearest points used for statistics (select the appropriate number for outlier identification and distinction).<br>
 
 <code>Contamination</code>: The set abnormal ratio (the default is 0.1, which is used for threshold calculation).<br> 
 
