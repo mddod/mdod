@@ -1,4 +1,4 @@
-# mdod
+# MDOD
 
 MDOD, Multi-Dimensional data Outlier Detection
 
@@ -22,7 +22,7 @@ or
 
 <code>python setup.py install</code>
 
-# usage example:
+# Example:
 
 Please visit https://pypi.org/project/mdod/, or https://github.com/mddod/mdod, or https://mddod.github.io/
 
