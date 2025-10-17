@@ -173,7 +173,12 @@ MDOD decision scores (bottom 10 - lowest values):
  -19.76201034 -19.76181435 -19.75729718 -19.75229983 -19.74520579]
 
  
- 
+The <code>parameters of MDOD</code> include: <br> 
+<code>norm_distence</code>: The distance of the virtual dimension (the default is 1.0, which affects the similarity calculation).<br> 
+<code>top_n</code>: Consider the number of nearest points used for statistics (select the appropriate number for outlier identification and distinction).<br> 
+<code>Contamination</code>: The set abnormal ratio (the default is 0.1, which is used for threshold calculation).<br> 
+<code>sampling_rate</code>: sampling rate (0~1, default 1.0, low value accelerates calculation).<br> 
+<code>random_state</code>: random seed.<br> <br>  
 
 
 
