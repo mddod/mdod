@@ -40,8 +40,6 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 
 <code>Use sampling rate: 0.05</code>
 
-
-
 <code>&nbsp;MDOD Decision Score (Top 10):</code>
 
 <code>\[-19.43729592 -19.37395193 -19.4863282  -18.59004489 -19.54782871</code>
@@ -65,8 +63,6 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 <code>MDOD Recall: 1.0000</code>
 
 <code>MDOD F1-Score: 1.0000</code>
-
-
 
 <code>LOF Decision Score (Top 10):</code>
 
@@ -92,8 +88,6 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 
 <code>LOF F1-Score: 1.0000</code>
 
-
-
 <code>Comparison results:</code>
 
 <code>Spearman correlation coefficient: 0.9191 (p-value: 0.0000)</code>
@@ -101,8 +95,6 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 <code>MDOD AUC: 1.0000, LOF AUC: 1.0000</code>
 
 <code>Algorithm Complexity Comparison (Empirical Running Time)：MDOD 0.004329s vs LOF 0.012511s</code>
-
-
 
 <code>Test Data Comparison (Top 10 Rows):</code>
 
@@ -136,12 +128,9 @@ Please try testmdod_simple_example_en.py and testmdod_simple_example_input_data.
 
 <code>libpng warning: iCCP: cHRM chunk does not match sRGB</code>
 
+<code></code><br>
 
-D:\mdodtest>
-
-D:\mdodtest>
-
-D:\mdodtest>
+<code></code><br>
 
 <code>D:\mdodtest>py testmdod_simple_example_en.py</code>
 
@@ -157,14 +146,11 @@ D:\mdodtest>
 
 <code>MDOD runtime: 0.0797 seconds</code>
 
-
 <code>MDOD decision scores (top 10 - highest values):</code>
 
 <code>[-6.62289984 -6.77322132 -6.92891522 -7.18871113 -7.23625849 -7.24312221</code>
 
 <code> -7.31773667 -7.32676678 -7.33133378 -7.33982723]</code>
-
- 
 
 <code>MDOD decision scores (bottom 10 - lowest values):</code>
 
